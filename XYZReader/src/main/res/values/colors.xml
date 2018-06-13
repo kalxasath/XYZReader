@@ -1,0 +1,48 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="photo_placeholder">@android:color/transparent</color>
+
+    <color name="theme__primary">#04561A</color>
+    <color name="theme__primary_dark">#04561A</color>
+    <color name="theme__accent">#04561A</color>
+    <color name="lt_gray">#ffe0e0e0</color>
+
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="_primary_light">#B2DFDB</color>
+    <color name="accent">#FF5722</color>
+    <color name="_primary_text">#212121</color>
+    <color name="_secondary_text">#757575</color>
+    <color name="_icons">#FFFFFF</color>
+    <color name="_divider">#BDBDBD</color>
+
+
+    <color name="__primary_light">#B2DFDB</color>
+    <color name="__primary_text">#212121</color>
+    <color name="__secondary_text">#757575</color>
+    <color name="__icons">#FFFFFF</color>
+    <color name="__divider">#BDBDBD</color>
+
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textTitle">#D0000000</color>
+    <color name="textSubtitle">#75000000</color>
+    <color name="textPrimaryContent">#60000000</color>
+    <color name="textSecondaryContent">#40000000</color>
+
+</resources>
