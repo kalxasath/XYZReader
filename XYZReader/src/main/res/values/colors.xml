@@ -16,17 +16,20 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">@android:color/transparent</color>
-
-    <color name="theme__primary">#04561A</color>
-    <color name="theme__primary_dark">#04561A</color>
-    <color name="theme__accent">#04561A</color>
-    <color name="lt_gray">#ffe0e0e0</color>
-
     <color name="primary">#009688</color>
     <color name="primary_dark">#00796B</color>
-    <color name="_primary_light">#B2DFDB</color>
     <color name="accent">#FF5722</color>
+
+    <color name="textBodyContent">#60000000</color>
+
+    <color name="photo_placeholder">@android:color/transparent</color>
+
+    <color name="_theme__primary">#04561A</color>
+    <color name="_theme__primary_dark">#04561A</color>
+    <color name="_theme__accent">#04561A</color>
+    <color name="_lt_gray">#ffe0e0e0</color>
+
+    <color name="_primary_light">#B2DFDB</color>
     <color name="_primary_text">#212121</color>
     <color name="_secondary_text">#757575</color>
     <color name="_icons">#FFFFFF</color>
@@ -39,10 +42,18 @@
     <color name="__icons">#FFFFFF</color>
     <color name="__divider">#BDBDBD</color>
 
-    <color name="textPrimary">#FFFFFF</color>
-    <color name="textTitle">#D0000000</color>
-    <color name="textSubtitle">#75000000</color>
-    <color name="textPrimaryContent">#60000000</color>
-    <color name="textSecondaryContent">#40000000</color>
+    <color name="_textPrimary">#FFFFFF</color>
+    <color name="_textTitle">#D0000000</color>
+    <color name="_textSubtitle">#75000000</color>
+    <color name="_textPrimaryContent">#60000000</color>
+    <color name="_textSecondaryContent">#40000000</color>
 
+    <color name="black">#000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#0a310a</color>
+    <color name="blue">#0000ff</color>
+    <color name="orange">#ffa500</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="blanchedAlmond">#FFEBCD</color>
 </resources>

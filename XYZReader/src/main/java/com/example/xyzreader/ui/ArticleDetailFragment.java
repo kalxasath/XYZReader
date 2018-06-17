@@ -232,7 +232,12 @@ public class ArticleDetailFragment extends Fragment implements
                                 + "</font>"));
 
             }
-            bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY).replaceAll("(\r\n|\n)", "<br />")));
+            String heavyLoadTimeText = mCursor.getString(ArticleLoader.Query.BODY);
+            int ll = heavyLoadTimeText.length();
+            int shortLoadTimeLength = 1000;
+            String shortLoadTimeText = heavyLoadTimeText.substring(0, shortLoadTimeLength);
+            String textToDisplay = shortLoadTimeText;
+            bodyView.setText(Html.fromHtml(textToDisplay.replaceAll("(\r\n|\n)", "<br />")));
             ImageLoaderHelper.getInstance(getActivity()).getImageLoader()
                     .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
                         @Override
